@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Karaçalılık Çerkes Derneği Website
+
+Official website for Karaçalılık Çerkes Derneği (Circassian Association of Karaçalılık), a community organization based in Bandırma, Balıkesir.
+
+## About
+
+This website was developed by **Gökberk Tanış** for the Karaçalılık Çerkes Derneği. It serves as the official online presence for the association, providing information about the community, events, activities, and ways to get in touch.
+
+## Features
+
+- **Homepage**: Hero video section with association introduction and social media feed
+- **About Us (Hakkımızda)**: Information about the association and community
+- **Clans (Sülaleler)**: Information about Circassian clans
+- **Gallery (Galeri)**: Photo gallery with lightbox functionality and automatic integration of event images
+- **Events (Etkinlikler)**: Event listings with detail pages, date-based sorting, and SEO-friendly slugs
+- **Contact (İletişim)**: Contact information, map, and social media links
+- **Responsive Design**: Fully responsive across all device sizes
+- **SEO Optimized**: Meta tags, Open Graph, Twitter Cards, structured data, sitemap, and robots.txt
+- **Image Optimization**: Next.js Image component for optimized image delivery
+- **Accessibility**: Semantic HTML and ARIA attributes for better accessibility
+
+## Tech Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
+- **Deployment**: Ready for Vercel, Netlify, or any Node.js hosting
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd karacalilik-cerkes-dernegi
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+app/
+├── components/          # Reusable React components
+│   ├── common/         # Header, Footer, Container
+│   ├── gallery/        # Gallery-related components
+│   └── home/           # Homepage components
+├── data/               # Data files (events, etc.)
+├── etkinlikler/        # Events pages
+├── galeri/             # Gallery page
+├── hakkimizda/         # About page
+├── iletisim/           # Contact page
+├── sulaleler/          # Clans page
+├── layout.tsx          # Root layout
+├── page.tsx            # Homepage
+├── globals.css         # Global styles
+├── robots.ts           # Robots.txt
+└── sitemap.ts          # Sitemap generation
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Environment Variables
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+No environment variables are currently required. The project uses static data and Instagram embeds.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is private and proprietary. All rights reserved.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+**Developed by Gökberk Tanış**
+
+For the Karaçalılık Çerkes Derneği community.

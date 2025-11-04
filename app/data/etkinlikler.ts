@@ -234,3 +234,4 @@ export function getAllEtkinlikler(): Etkinlik[] {
     return dateB.getTime() - dateA.getTime();
   });
 }
+

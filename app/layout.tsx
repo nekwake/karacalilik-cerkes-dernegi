@@ -12,6 +12,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://karacalilikcerkesdernegi.com"),
   title: {
     default: "Karaçalılık Çerkes Derneği",
     template: "%s | Karaçalılık Çerkes Derneği",
