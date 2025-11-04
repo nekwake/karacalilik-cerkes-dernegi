@@ -85,7 +85,7 @@ export default function Galeri() {
           <h1 className="mb-6 md:mb-8 text-center text-3xl font-bold text-[var(--krcgreen)] md:text-4xl">
             Galeri
           </h1>
-          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 md:px-0 px-6 mb-8">
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 md:px-0 px-3 mb-8">
             {galeryList.map((galeri, index) => (
               <GalleryImage
                 key={index}

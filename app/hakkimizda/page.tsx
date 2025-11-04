@@ -4,7 +4,7 @@ import { Container } from "../components/common/Container";
 
 export default function Hakkimizda() {
   return (
-    <article className="about-us-container md:flex px-3 py-8 md:py-10">
+    <article className="about-us-container md:flex px-1 md:px-0 py-8 md:py-10">
       <Container>
         <div className="about-us-inner-container rounded-3xl shadow-krc md:p-10 p-9 my-6 md:my-8 bg-white">
           <h1 className="text-[var(--krcgreen)] text-3xl mb-6 md:mb-8 md:text-4xl font-bold">

@@ -93,11 +93,11 @@ export default function Sulaleler() {
         <h1 className="mb-6 md:mb-8 text-center text-3xl font-bold text-[var(--krcgreen)] md:text-4xl">
           Sülaleler
         </h1>
-        <div className="grid-container grid md:grid-cols-4 grid-cols-3 my-10 gap-6 md:px-0 px-6 mb-8">
+        <div className="grid-container grid md:grid-cols-4 grid-cols-3 my-10 gap-4 md:gap-6 md:px-0 px-6 mb-8">
           {sulaleList.map((sulale, index) => {
             return (
               <article className="grid-item text-center flex flex-col items-center" key={index}>
-                <div className="img-container rounded-full border-4 border-[var(--krcgreen)] overflow-hidden w-32 h-32 md:w-40 md:h-40 flex items-center justify-center">
+                <div className="img-container rounded-full border-4 border-[var(--krcgreen)] overflow-hidden w-24 h-24 md:w-40 md:h-40 flex items-center justify-center">
                   <Image
                     src={sulale.img}
                     alt={`${sulale.name} sülalesi arması`}
