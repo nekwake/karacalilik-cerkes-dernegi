@@ -37,7 +37,7 @@ export default function Home() {
               Üye Kayıt Formu
             </a>
             <a
-              href="/documents/dernek-tuzugu.txt"
+              href="/documents/dernek-tuzugu.pdf"
               download
               className="constitution-button text-[var(--krcgreen)] bg-[var(--krcwhite)] hover:text-[var(--krcwhite)] hover:bg-[var(--krcgreen)] transition-colors font-medium rounded-2xl text-lg sm:text-base md:text-lg px-5 py-2.5 text-center focus:outline-none focus:ring-2 focus:ring-white"
               aria-label="Dernek tüzüğünü indir"
