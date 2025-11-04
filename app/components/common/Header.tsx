@@ -9,7 +9,7 @@ export const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="header-container md:h-20 h-12 w-full flex items-center shadow-md bg-white sticky top-0 z-50">
+    <header className="header-container md:h-20 h-12 w-full flex items-center shadow-md bg-white sticky top-0 z-50 relative">
       <div className="container px-4 md:px-6 lg:px-0">
         <nav className="header-inner-container flex relative justify-between" aria-label="Ana navigasyon">
           <div className="logo md:flex hidden h-20 py-1">
@@ -74,64 +74,6 @@ export const Header: React.FC = () => {
               İletişim
             </Link>
           </div>
-          <div
-            className={`mobile-links md:hidden flex absolute left-0 right-0 w-screen flex-col items-center gap-5 z-40 bg-white top-10 shadow-md transition-all duration-300 ${
-              isMenuOpen ? "h-[260px] opacity-100" : "h-0 opacity-0 overflow-hidden"
-            }`}
-            role="menu"
-            aria-hidden={!isMenuOpen}
-          >
-            <Link
-              href="/"
-              className="text-[var(--krcgreen)] hover:text-black transition-colors delay-200 text-base"
-              onClick={(e) => {
-                setIsMenuOpen(false);
-              }}
-              role="menuitem"
-            >
-              Anasayfa
-            </Link>
-            <Link
-              href="/hakkimizda"
-              className="text-[var(--krcgreen)] hover:text-black transition-colors delay-200 text-base"
-              onClick={() => setIsMenuOpen(false)}
-              role="menuitem"
-            >
-              Hakkımızda
-            </Link>
-            <Link
-              href="/sulaleler"
-              className="text-[var(--krcgreen)] hover:text-black transition-colors delay-200 text-base"
-              onClick={() => setIsMenuOpen(false)}
-              role="menuitem"
-            >
-              Sülaleler
-            </Link>
-            <Link
-              href="/galeri"
-              className="text-[var(--krcgreen)] hover:text-black transition-colors delay-200 text-base"
-              onClick={() => setIsMenuOpen(false)}
-              role="menuitem"
-            >
-              Galeri
-            </Link>
-            <Link
-              href="/etkinlikler"
-              className="text-[var(--krcgreen)] hover:text-black transition-colors delay-200 text-base"
-              onClick={() => setIsMenuOpen(false)}
-              role="menuitem"
-            >
-              Etkinlikler
-            </Link>
-            <Link
-              href="/iletisim"
-              className="text-[var(--krcgreen)] hover:text-black transition-colors delay-200 text-base"
-              onClick={() => setIsMenuOpen(false)}
-              role="menuitem"
-            >
-              İletişim
-            </Link>
-          </div>
           <button
             className="menu md:hidden flex justify-end w-full px-2 focus:outline-none focus:ring-2 focus:ring-[var(--krcgreen)] rounded"
             onClick={() => {
@@ -144,6 +86,64 @@ export const Header: React.FC = () => {
             <IoIosMenu className="w-8 h-8 text-[var(--krcgreen)]" />
           </button>
         </nav>
+      </div>
+      <div
+        className={`mobile-links md:hidden flex fixed left-0 right-0 w-screen flex-col items-center gap-5 z-40 bg-white top-12 shadow-md transition-all duration-300 ${
+          isMenuOpen ? "h-[260px] opacity-100" : "h-0 opacity-0 overflow-hidden"
+        }`}
+        role="menu"
+        aria-hidden={!isMenuOpen}
+      >
+        <Link
+          href="/"
+          className="text-[var(--krcgreen)] hover:text-black transition-colors delay-200 text-base"
+          onClick={(e) => {
+            setIsMenuOpen(false);
+          }}
+          role="menuitem"
+        >
+          Anasayfa
+        </Link>
+        <Link
+          href="/hakkimizda"
+          className="text-[var(--krcgreen)] hover:text-black transition-colors delay-200 text-base"
+          onClick={() => setIsMenuOpen(false)}
+          role="menuitem"
+        >
+          Hakkımızda
+        </Link>
+        <Link
+          href="/sulaleler"
+          className="text-[var(--krcgreen)] hover:text-black transition-colors delay-200 text-base"
+          onClick={() => setIsMenuOpen(false)}
+          role="menuitem"
+        >
+          Sülaleler
+        </Link>
+        <Link
+          href="/galeri"
+          className="text-[var(--krcgreen)] hover:text-black transition-colors delay-200 text-base"
+          onClick={() => setIsMenuOpen(false)}
+          role="menuitem"
+        >
+          Galeri
+        </Link>
+        <Link
+          href="/etkinlikler"
+          className="text-[var(--krcgreen)] hover:text-black transition-colors delay-200 text-base"
+          onClick={() => setIsMenuOpen(false)}
+          role="menuitem"
+        >
+          Etkinlikler
+        </Link>
+        <Link
+          href="/iletisim"
+          className="text-[var(--krcgreen)] hover:text-black transition-colors delay-200 text-base"
+          onClick={() => setIsMenuOpen(false)}
+          role="menuitem"
+        >
+          İletişim
+        </Link>
       </div>
     </header>
   );
