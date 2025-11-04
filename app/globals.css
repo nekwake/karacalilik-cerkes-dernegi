@@ -3,24 +3,204 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --krcgreen: #314726;
+  --krcwhite: #e9e9ea;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-krcgreen: var(--krcgreen);
+  --color-krcwhite: var(--krcwhite);
+  --font-sans: var(--font-montserrat);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat), sans-serif;
+  font-size: 0.9rem; /* Genel font boyutunu küçült */
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 0.95rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Hero butonları için özel stil */
+.buttons-container .register-button,
+.buttons-container .constitution-button {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buttons-container .register-button {
+  color: var(--krcwhite) !important;
+}
+
+.buttons-container .register-button:hover {
+  color: var(--krcgreen) !important;
+}
+
+.buttons-container .constitution-button {
+  color: var(--krcgreen) !important;
+}
+
+.buttons-container .constitution-button:hover {
+  color: var(--krcwhite) !important;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.shadow-krc {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.shadow-krc2 {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+/* Lightbox icon styles */
+.lightbox-button svg,
+.lightbox-button svg path,
+.lightbox-button svg circle,
+.lightbox-button svg line,
+.lightbox-button svg polyline,
+.lightbox-button svg polygon {
+  color: white !important;
+  fill: white !important;
+  stroke: white !important;
+}
+
+.lightbox-button {
+  color: white !important;
+}
+
+.lightbox-button *,
+.lightbox-button * path,
+.lightbox-button * circle {
+  color: white !important;
+  fill: white !important;
+  stroke: white !important;
+}
+
+/* Footer social media icons */
+.footer-container .social-media-links a {
+  color: white !important;
+}
+
+.footer-container .social-media-links svg {
+  color: white !important;
+  fill: white !important;
+}
+
+/* Instagram hover - pembe */
+.footer-container .social-media-links a:first-child:hover svg {
+  color: #E4405F !important;
+  fill: #E4405F !important;
+}
+
+/* Facebook hover - mavi */
+.footer-container .social-media-links a:last-child:hover svg {
+  color: #1877F2 !important;
+  fill: #1877F2 !important;
+}
+
+/* Header link colors */
+.header-container .links a,
+.header-container .mobile-links a {
+  color: var(--krcgreen) !important;
+}
+
+.header-container .links a:hover,
+.header-container .mobile-links a:hover {
+  color: #000000 !important;
+}
+
+/* Footer spacing fix */
+.footer-container {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Instagram embed responsive ve container styling */
+.instagram-feed .instagram-embed-wrapper {
+  width: 100%;
+  padding: 0.5rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.instagram-feed .instagram-media {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-radius: 0.75rem !important;
+  overflow: hidden !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.instagram-feed .instagram-media > div {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  border-radius: 0.75rem !important;
+  overflow: hidden !important;
+}
+
+.instagram-feed .instagram-media iframe {
+  border-radius: 0.75rem !important;
+  border: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  height: auto !important;
+}
+
+@media (max-width: 768px) {
+  .instagram-feed .instagram-embed-wrapper {
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+  }
+  
+  .instagram-feed .instagram-media {
+    min-width: 0 !important;
+    border-radius: 0.5rem !important;
+  }
+  
+  .instagram-feed .instagram-media > div {
+    min-width: 0 !important;
+    border-radius: 0.5rem !important;
+  }
+  
+  .instagram-feed .instagram-media iframe {
+    min-width: 0 !important;
+    border-radius: 0.5rem !important;
+  }
 }

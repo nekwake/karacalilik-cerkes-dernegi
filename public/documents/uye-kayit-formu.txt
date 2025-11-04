@@ -1,0 +1,3 @@
+Bu dosya Üye Kayıt Formu PDF'si ile değiştirilecektir.
+Lütfen bu dosyayı PDF formatında olan gerçek üye kayıt formu ile değiştirin.
+
