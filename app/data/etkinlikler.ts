@@ -6,6 +6,7 @@ export interface Etkinlik {
   text: string;
   date: string;
   keywords?: string[];
+  additionalImages?: string[];
 }
 
 // Slug oluşturma fonksiyonu
@@ -202,6 +203,13 @@ export const etkinliklerList: Etkinlik[] = [
     text: "19 Ağustos 2024 tarihinde Barış Manço Kültür Merkezinde yapılan Bandırma Kent Konseyi Seçimine katılım sağlandık. Seçimin tüm paydaşlar ve Bandırma halkına hayırlı olmasını diliyoruz.",
     date: "22.06.2024",
     keywords: ["Bandırma Kent Konseyi", "Seçim", "Barış Manço Kültür Merkezi", "Katılım"],
+    additionalImages: [
+      "/images/galeripics/ilce-bsk-1.jpg",
+      "/images/galeripics/ilce-bsk-2.jpg",
+      "/images/galeripics/ilce-bsk-3.jpg",
+      "/images/galeripics/yucelyilmaz-1.jpg",
+      "/images/galeripics/yucelyilmaz-2.jpg",
+    ],
   },
   {
     id: 21,
