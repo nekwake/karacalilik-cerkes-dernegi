@@ -24,10 +24,13 @@ export default function Home() {
             Diasporada bir Çerkes Köyü.
           </h1>
           <p className="text-lg sm:text-base md:text-xl mb-6">
+            Kültürümüzü yaşatmak, birlik ve dayanışmamızı güçlendirmek için bir araya geldik.
+          </p>
+          {/* <p className="text-lg sm:text-base md:text-xl mb-6">
             Karaçalılık Çerkes Derneği websitesine hoş geldiniz. Derneğimize
             kaydolabilir veya tüzüğümüzü okuyabilirsiniz.
-          </p>
-          <div className="buttons-container mt-4 flex flex-wrap justify-center gap-4">
+          </p> */}
+          {/* <div className="buttons-container mt-4 flex flex-wrap justify-center gap-4">
             <a
               href="/documents/uye-kayit-formu.txt"
               download
@@ -44,7 +47,7 @@ export default function Home() {
             >
               Dernek Tüzüğü
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       <InstagramFeed />

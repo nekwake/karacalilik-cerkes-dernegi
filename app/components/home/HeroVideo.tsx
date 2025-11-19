@@ -59,8 +59,9 @@ export const HeroVideo: React.FC = () => {
         aria-label="Arka plan videosu"
         style={{ minHeight: "100%", minWidth: "100%" }}
       >
-        <source src="/images/bgvideo-resized.mp4" type="video/mp4" />
-        <source src="/images/bgvideo.mp4" type="video/mp4" />
+        <source src="/images/bgvideo-resized-compressed.mp4" type="video/mp4" />
+        {/* <source src="/images/bgvideo-resized.mp4" type="video/mp4" /> */}
+        {/* <source src="/images/bgvideo.mp4" type="video/mp4" /> */}
         {/* Fallback for browsers that don't support video */}
         <p>Tarayıcınız video oynatmayı desteklemiyor.</p>
       </video>
