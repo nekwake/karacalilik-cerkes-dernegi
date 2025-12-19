@@ -16,9 +16,9 @@ export const InstagramFeed: React.FC = () => {
 
   // Instagram paylaşım URL'leri
   const instagramPosts = [
+    "https://www.instagram.com/reel/DSc2sBqjADG/",
     "https://www.instagram.com/p/DQUVazUjFCu/",
     "https://www.instagram.com/reel/DPY3lnejAHF/",
-    "https://www.instagram.com/p/C8aDQUXoHTj/",
     // "https://www.instagram.com/reel/DNY4e-Go3G_/", // 4. post yorum satırına alındı - 3 post görüntülenecek
   ];
 

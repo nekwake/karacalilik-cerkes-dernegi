@@ -203,13 +203,6 @@ export const etkinliklerList: Etkinlik[] = [
     text: "19 Ağustos 2024 tarihinde Barış Manço Kültür Merkezinde yapılan Bandırma Kent Konseyi Seçimine katılım sağlandık. Seçimin tüm paydaşlar ve Bandırma halkına hayırlı olmasını diliyoruz.",
     date: "22.06.2024",
     keywords: ["Bandırma Kent Konseyi", "Seçim", "Barış Manço Kültür Merkezi", "Katılım"],
-    additionalImages: [
-      "/images/galeripics/ilce-bsk-1.jpg",
-      "/images/galeripics/ilce-bsk-2.jpg",
-      "/images/galeripics/ilce-bsk-3.jpg",
-      "/images/galeripics/yucelyilmaz-1.jpg",
-      "/images/galeripics/yucelyilmaz-2.jpg",
-    ],
   },
   {
     id: 21,
@@ -219,6 +212,29 @@ export const etkinliklerList: Etkinlik[] = [
     text: "Mahalle merkezinde bulunan Karaçalılık köyü ilkokulu ve yan hizmet binalarının yıkımı başlandı. Uzun süredir kullanılmayan okul binası ve yan hizmet binaları belediye ekiplerinin kontrolleri sonunda kullanılmaz hale geldiği için yıkılması kararı çıktı. Okul alanının ilerleyen dönemde köy meydanı olması için çalışmalara başlandı.",
     date: "21.02.2022",
     keywords: ["İlkokul", "Yıkım", "Köy Meydanı", "Belediye"],
+  },
+  {
+    id: 22,
+    title: "Geleceğe Nefes Olan Bir Çalışma",
+    slug: createSlug("Geleceğe Nefes Olan Bir Çalışma"),
+    img: "/images/etkinlikpics/agac-dikim-1.jpg",
+    text: "Karaçalılık Mahallesi Muhtarlığı'nın organizasyonu ile gerçekleştirilen ağaç dikim etkinliği, yaklaşık 45 kişinin katılımıyla başarıyla tamamlandı. Öğrencilerimizin ve köy halkının katılımıyla gerçekleşen bu anlamlı çalışmada, gelecek nesillerimiz için büyük önem taşıyan 350 fidan toprakla buluşturuldu.\n\nAğaçlandırma çalışmaları; doğanın korunması, çevre bilincinin erken yaşlarda kazanılması ve çocuklarımıza daha yaşanabilir bir gelecek bırakılması açısından hayati bir değere sahiptir. Öğrencilerimizin bu sürecin bir parçası olması ise çevreye duyarlı bir neslin yetişmesi adına ayrıca anlamlıdır.\n\nBu kıymetli organizasyonda emeği geçen Karaçalılık Mahallesi Muhtarlığı'na, katkı sunan tüm kurumlara; katılım sağlayan, destek veren ve dayanışmayı güçlendiren herkese içtenlikle teşekkür ederiz. 🌿\n\nBugün dikilen her fidan, yarının nefesidir.",
+    date: "18.12.2025",
+    keywords: ["Ağaç Dikimi", "Çevre", "Karaçalılık Mahallesi", "Doğa"],
+    additionalImages: [
+      "/images/etkinlikpics/agac-dikim-2.jpg",
+      "/images/etkinlikpics/agac-dikim-3.jpg",
+      "/images/etkinlikpics/agac-dikim-4.jpg",
+      "/images/etkinlikpics/agac-dikim-5.jpg",
+      "/images/etkinlikpics/agac-dikim-6.jpg",
+      "/images/etkinlikpics/agac-dikim-7.jpg",
+      "/images/etkinlikpics/agac-dikim-8.jpg",
+      "/images/etkinlikpics/agac-dikim-9.jpg",
+      "/images/etkinlikpics/agac-dikim-10.jpg",
+      "/images/etkinlikpics/agac-dikim-11.jpg",
+      "/images/etkinlikpics/agac-dikim-12.jpg",
+      "/images/etkinlikpics/agac-dikim-13.jpg",
+    ],
   },
 ];
 
