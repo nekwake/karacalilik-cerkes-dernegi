@@ -31,7 +31,12 @@ export const etkinliklerList: Etkinlik[] = [
     img: "/images/etkinlikpics/yucelyilmaz.jpg",
     text: "Balıkesir Büyükşehir Belediye Başkanı Yücel Yılmaz, 13 yıl aradan sonra yeniden mahalle statüsüne kavuşarak Bandırma'nın 55'nci mahallesi olan Karaçalılık'ı ziyaret etti. Cuma namazını Karaçalılık Camisi'nde kılan Başkan Yılmaz'a daha sonra Çerkez yemeklerinden oluşan ikramlarda bulunuldu. Yapılan kısa konuşmaların ardından Başkan Yücel Yılmaz, Balıkesir Büyükşehir Belediyesi Başdanışmanı Cemal Öztaylan ve AK Parti Bandırma İlçe Başkanı Mehmet Doğan'a günün anısına kalpak hediye edildi.",
     date: "01.10.2021",
-    keywords: ["Yücel Yılmaz", "Balıkesir Büyükşehir Belediyesi", "Ziyaret", "Karaçalılık"],
+    keywords: [
+      "Yücel Yılmaz",
+      "Balıkesir Büyükşehir Belediyesi",
+      "Ziyaret",
+      "Karaçalılık",
+    ],
   },
   {
     id: 2,
@@ -49,7 +54,12 @@ export const etkinliklerList: Etkinlik[] = [
     img: "/images/etkinlikpics/tolgatosun.jpg",
     text: "Bandırma Belediyesi Mart ayı Meclisinde oy birliğiyle onaylanan madde Büyükşehir meclisinde alınacak kabul'ün ardından Karaçalılık mahalle statüsüne kavuşacak. Karaçallık mahallesi ziyaret gerçekleştiren Başkan Tolga Tosun mahalle'yi ziyaret ederek müjdeli haberi verdi kendisi verdi. Uzun yıllardır bekledikleri haberi alan mahalle sakinleri Başkan Tolga Tosun'a teşekkür etti.",
     date: "05.03.2021",
-    keywords: ["Tolga Tosun", "Bandırma Belediyesi", "Mahalle Statüsü", "Ziyaret"],
+    keywords: [
+      "Tolga Tosun",
+      "Bandırma Belediyesi",
+      "Mahalle Statüsü",
+      "Ziyaret",
+    ],
   },
   {
     id: 4,
@@ -58,7 +68,12 @@ export const etkinliklerList: Etkinlik[] = [
     img: "/images/etkinlikpics/secim.jpg",
     text: "Balıkesir Valisi Hasan SILDAK'ın 24.06.2021 tarihli kararından sonra Mahalle statüsü kazanan Karaçalılık için seçim tarihi belli oldu. Bandırma İlçe Seçim Müdürlüğünün kararı sonrası 6 Mart 2022 Pazar günü seçim sandığı kurulacak.",
     date: "01.09.2021",
-    keywords: ["Seçim", "Mahalle Statüsü", "Balıkesir Valiliği", "Hasan SILDAK"],
+    keywords: [
+      "Seçim",
+      "Mahalle Statüsü",
+      "Balıkesir Valiliği",
+      "Hasan SILDAK",
+    ],
   },
   {
     id: 5,
@@ -67,7 +82,12 @@ export const etkinliklerList: Etkinlik[] = [
     img: "/images/etkinlikpics/muhtarlik-secim-karari.jpg",
     text: "23 Eylül 2021'de Balıkesir Valiliğinin kararı ile Bandırma'nın 55. Mahallesi olan Karaçalılık Mahallesinde muhtarlık seçimi 6 Mart Pazar günü yapılacak. 570 nüfusu, 360 seçmeni bulunan mahallede 08:00 - 17:00 arasında oy kullanma işlemi muhtarlık binasında gerçekleşecek.",
     date: "05.03.2022",
-    keywords: ["Muhtarlık Seçimi", "Karaçalılık Mahallesi", "Seçim", "Balıkesir Valiliği"],
+    keywords: [
+      "Muhtarlık Seçimi",
+      "Karaçalılık Mahallesi",
+      "Seçim",
+      "Balıkesir Valiliği",
+    ],
   },
   {
     id: 6,
@@ -76,12 +96,19 @@ export const etkinliklerList: Etkinlik[] = [
     img: "/images/etkinlikpics/muhtarlik-secimi.jpg",
     text: "Mahalle olma sürecinin son adımı olan mahalle muhtarlığı seçimleri 6 Mart 2022 Pazar günü Karaçalılık Mahalle muhtarlığında yapıldı. 360 seçmenin bulunduğu mahallede 162 oy kullanıldı. Mahalle halkının ortak adayı Mehmet EVRE 155 oy ile muhtar olurken Şenol TANIŞ, Önal EVGİN, Doğan İÇÖZ ve Nusret TANIŞ azaları oldu. Seçim günü mahalle halkına tebriklerini iletmek için Ak Parti Bandırma ilçe başkanı Mehmet DOĞAN, Orhanlı Köyü Çerkes Kültür Derneğinden Mehmet AYDEMİR ve beraberindeki heyet, Yeni Ziraatlı Mahalle Muhtarı Murat ÖZHAN ve Aksakal Mahalle Muhtarı Metin ATICI ziyarette bulundu. Yeni seçilen muhtar ve heyetine görev süreleri boyunca başarılar diler, güzel günlerde beraber olmayı temenni ederiz.",
     date: "06.03.2022",
-    keywords: ["Muhtarlık Seçimi", "Mehmet EVRE", "Seçim", "Karaçalılık Mahallesi"],
+    keywords: [
+      "Muhtarlık Seçimi",
+      "Mehmet EVRE",
+      "Seçim",
+      "Karaçalılık Mahallesi",
+    ],
   },
   {
     id: 7,
     title: "Karaçalılık Köyü Çerkes Kültür Derneği Genel Kurul Bildirimi",
-    slug: createSlug("Karaçalılık Köyü Çerkes Kültür Derneği Genel Kurul Bildirimi"),
+    slug: createSlug(
+      "Karaçalılık Köyü Çerkes Kültür Derneği Genel Kurul Bildirimi",
+    ),
     img: "/images/etkinlikpics/genel-kurul-bildirimi.jpg",
     text: "Karaçalılık Köyü Çerkes Kültür Derneği Yönetim Kurulunun 12.03.2022 tarihi 08 nolu kararı gereği 1. Olağan Genel Kurulu 28.03.2022 saat 12:00'da, gerekli çoğunluğun sağlanamaması durumunda 11.04.2022 saat 12:00'da dernek binasında yapılmasına karar verilmiştir. Genel Kurul aşağıdaki gündem ile toplanacak olup, tüm üyelerimiz davetlidir. Gündem Maddeleri: Madde 1- Açılış ve yoklama. Madde 2- Şehitlerimiz için Saygı duruşu ve istiklal marşı. Madde 3- Divan oluşturulması. Madde 4- Yeni yönetim ve denetim kurulları seçimi. Madde 5- Derneğin Genel Kurulun Kapanışı.",
     date: "12.03.2022",
@@ -90,7 +117,9 @@ export const etkinliklerList: Etkinlik[] = [
   {
     id: 8,
     title: "Cumhuriyet Halk Partisi Bandırma İlçe Başkanlığından Ziyaret",
-    slug: createSlug("Cumhuriyet Halk Partisi Bandırma İlçe Başkanlığından Ziyaret"),
+    slug: createSlug(
+      "Cumhuriyet Halk Partisi Bandırma İlçe Başkanlığından Ziyaret",
+    ),
     img: "/images/etkinlikpics/chp-ziyaret.jpg",
     text: "Cumhuriyet Halk Partisi Bandırma İlçe Başkanı Selim PANÇ ve beraberindeki heyet mahalle olma sürecinin ve muhtarlık seçiminin tamamlanmasından dolayı tebriklerini iletmek için ziyarette bulundu. Mahalle sakinlerinin sorunları ve talepleri ile ilgili bilgi alan Panç, çözüm konusunda destek olacaklarını iletti.",
     date: "26.03.2022",
@@ -98,12 +127,20 @@ export const etkinliklerList: Etkinlik[] = [
   },
   {
     id: 9,
-    title: "Balıkesir Büyükşehir Belediye Başkanı Yücel Yılmaz ve Balıkesir Milletvekili Yavuz Subaşı Ziyaret Edildi",
-    slug: createSlug("Balıkesir Büyükşehir Belediye Başkanı Yücel Yılmaz ve Balıkesir Milletvekili Yavuz Subaşı Ziyaret Edildi"),
+    title:
+      "Balıkesir Büyükşehir Belediye Başkanı Yücel Yılmaz ve Balıkesir Milletvekili Yavuz Subaşı Ziyaret Edildi",
+    slug: createSlug(
+      "Balıkesir Büyükşehir Belediye Başkanı Yücel Yılmaz ve Balıkesir Milletvekili Yavuz Subaşı Ziyaret Edildi",
+    ),
     img: "/images/etkinlikpics/yucel-yilmaz-yavuz-subasi-ziyaret.jpg",
     text: "İlçemizde gerçekleştireceği ziyaretler kapsamında Bandırma'da bulunan Balıkesir Büyükşehir Belediye Başkanı Yücel YILMAZ ve Balıkesir Milletvekili Yavuz SUBAŞI Bandırma irtibat bürosunda Ak Parti Bandırma İlçe Başkanı Mehmet DOĞAN'ın katılımıyla görüşme yapıldı. Ziyarete Karaçalılık Mahalle muhtarı Mehmet EVRE, Azalar Doğan İÇÖZ, Önal EVGİN ve Hayri TANIŞ katıldı. Mahalle alt ve üst yapı çalışmalarının konuşulduğu ziyarette, mahalle sakinlerinin talepleri aktarıldı.",
     date: "01.04.2022",
-    keywords: ["Yücel YILMAZ", "Yavuz SUBAŞI", "Balıkesir Büyükşehir Belediyesi", "Ziyaret"],
+    keywords: [
+      "Yücel YILMAZ",
+      "Yavuz SUBAŞI",
+      "Balıkesir Büyükşehir Belediyesi",
+      "Ziyaret",
+    ],
   },
   {
     id: 10,
@@ -144,7 +181,9 @@ export const etkinliklerList: Etkinlik[] = [
   {
     id: 14,
     title: "Büyük Komutan Hacı Giranduk Berzek Mezarı Başında Anıldı",
-    slug: createSlug("Büyük Komutan Hacı Giranduk Berzek Mezarı Başında Anıldı"),
+    slug: createSlug(
+      "Büyük Komutan Hacı Giranduk Berzek Mezarı Başında Anıldı",
+    ),
     img: "/images/etkinlikpics/haci-giranduk-berzek.jpg",
     text: "Hacı Giranduk Berzek'in Manyas Dümbe (Tepecik) köyünde bulunan mezarı, Balıkesir Büyükşehir Belediyesi, Manyas Kaymakamlığı ve Manyas belediyesinin katkıları, Orhanlı Çerkes Kültür Derneği ve Manyas Kafkas Kültür Derneğinin önderliğinde yapılan düzenleme çalışmaları sonucunda anıt mezar haline getirildi.",
     date: "12.06.2022",
@@ -153,7 +192,9 @@ export const etkinliklerList: Etkinlik[] = [
   {
     id: 15,
     title: "Milliyetçi Hareket Partisi Bandırma İlçe Başkanlığından Ziyaret",
-    slug: createSlug("Milliyetçi Hareket Partisi Bandırma İlçe Başkanlığından Ziyaret"),
+    slug: createSlug(
+      "Milliyetçi Hareket Partisi Bandırma İlçe Başkanlığından Ziyaret",
+    ),
     img: "/images/etkinlikpics/mhp-ziyaret.jpg",
     text: "Milliyetçi Hareket Partisi Bandırma İlçe Başkanı Sayın Bekir Bozkurt ve beraberindeki heyet genel değerlendirmelerini paylaşmak için ziyarette bulundu.",
     date: "29.10.2022",
@@ -175,12 +216,20 @@ export const etkinliklerList: Etkinlik[] = [
     img: "/images/etkinlikpics/koy-yollari-calismasi.jpg",
     text: "Bandırma Belediye Başkanımız Sayın Tolga Tosun'un yönlendirmeleri ile köy yollarına taş döşenmesi ile ilgili çalışmalar başladı. Destekleri için Bandırma Belediye Başkanımız Sayın Tolga Tosun'a teşekkür ediyoruz.",
     date: "05.05.2023",
-    keywords: ["Köy Yolları", "Tolga Tosun", "Bandırma Belediyesi", "Yol Çalışması"],
+    keywords: [
+      "Köy Yolları",
+      "Tolga Tosun",
+      "Bandırma Belediyesi",
+      "Yol Çalışması",
+    ],
   },
   {
     id: 18,
-    title: "Bandırma Belediye Başkanı Sayın Tolga Tosun Karaçalılık Mahallesini Ziyaret Etti",
-    slug: createSlug("Bandırma Belediye Başkanı Sayın Tolga Tosun Karaçalılık Mahallesini Ziyaret Etti"),
+    title:
+      "Bandırma Belediye Başkanı Sayın Tolga Tosun Karaçalılık Mahallesini Ziyaret Etti",
+    slug: createSlug(
+      "Bandırma Belediye Başkanı Sayın Tolga Tosun Karaçalılık Mahallesini Ziyaret Etti",
+    ),
     img: "/images/etkinlikpics/tolga-tosun-ziyaret-2023.jpg",
     text: "Karaçalılık Mahallesinde devam eden alt yapı ve çevre düzenleme çalışmalarını yerinde görmek için Bandırma Belediye Başkanı Sayın Tolga Tosun ve beraberindeki heyet ziyaret gerçekleştirdi. Tamamlanan çalışmalar ve gelecek projeler üzerine görüş alışverişinde bulunularak, mahalle halkının talepleri iletildi. Mahalle olma sürecinin başından beri desteklerini esirgemeyen Sayın Tolga Tosun'a teşekkür ederiz. Ayrıca mahalle olma sürecinden itibaren özveri ile hizmet etmeye devam eden Mahalle Muhtarımız Mehmet Evre ve Aza heyetine yaptıkları çalışmalardan dolayı şükranlarımızı sunarız.",
     date: "21.06.2023",
@@ -188,8 +237,11 @@ export const etkinliklerList: Etkinlik[] = [
   },
   {
     id: 19,
-    title: "AK Parti Balıkesir İl Başkanlığına Atanan Hemşerimiz Mehmet Aydemir Ziyaret Edildi",
-    slug: createSlug("AK Parti Balıkesir İl Başkanlığına Atanan Hemşerimiz Mehmet Aydemir Ziyaret Edildi"),
+    title:
+      "AK Parti Balıkesir İl Başkanlığına Atanan Hemşerimiz Mehmet Aydemir Ziyaret Edildi",
+    slug: createSlug(
+      "AK Parti Balıkesir İl Başkanlığına Atanan Hemşerimiz Mehmet Aydemir Ziyaret Edildi",
+    ),
     img: "/images/etkinlikpics/mehmet-aydemir-ziyaret.jpg",
     text: "Karaçalılık Mahallesi Muhtarı Mehmet Evre ve Azaları Doğan İçöz, Önal Evgin ve Şenol Tanış tarafından AK Parti Balıkesir İl Başkanlığına atanan Hemşerimiz Mehmet Aydemir'e hayırlı olsun ziyaretinde bulunuldu. Kendisine yeni görevinde başarıları diliyoruz.",
     date: "03.12.2023",
@@ -202,7 +254,12 @@ export const etkinliklerList: Etkinlik[] = [
     img: "/images/etkinlikpics/bandirma-kent-konseyi-secimi.jpg",
     text: "19 Ağustos 2024 tarihinde Barış Manço Kültür Merkezinde yapılan Bandırma Kent Konseyi Seçimine katılım sağlandık. Seçimin tüm paydaşlar ve Bandırma halkına hayırlı olmasını diliyoruz.",
     date: "22.06.2024",
-    keywords: ["Bandırma Kent Konseyi", "Seçim", "Barış Manço Kültür Merkezi", "Katılım"],
+    keywords: [
+      "Bandırma Kent Konseyi",
+      "Seçim",
+      "Barış Manço Kültür Merkezi",
+      "Katılım",
+    ],
   },
   {
     id: 21,
@@ -236,6 +293,20 @@ export const etkinliklerList: Etkinlik[] = [
       "/images/etkinlikpics/agac-dikim-13.jpg",
     ],
   },
+  {
+    id: 23,
+    title: "Köy Hayrımız Gerçekleştirildi",
+    slug: createSlug("Köy Hayrımız Gerçekleştirildi"),
+    img: "/images/etkinlikpics/hayir1.png",
+    text: "17 Mayıs 2026 tarihinde gerçekleştirdiğimiz köy hayrımıza destek veren, emeğiyle katkı sunan, organizasyon sürecinde yanımızda olan ve katılımlarıyla bizleri onurlandıran tüm köylülerimize, hemşerilerimize ve kıymetli misafirlerimize gönülden teşekkür ederiz.\n\nBirlik ve beraberliğimizin en güzel örneklerinden birini hep birlikte yaşadığımız bu anlamlı günde, gösterilen dayanışma ve destek bizler için çok kıymetliydi. Köyümüzün kültürünü, paylaşma ruhunu ve kardeşliğini yaşatan herkese şükranlarımızı sunarız.\n\nAllah yapılan hayırları kabul etsin. Birliğimiz ve beraberliğimiz daim olsun.",
+    date: "17.05.2026",
+    keywords: ["Köy Hayrı", "Karaçalılık", "Dayanışma"],
+    additionalImages: [
+      "/images/etkinlikpics/hayir2.png",
+      "/images/etkinlikpics/hayir3.png",
+      "/images/etkinlikpics/hayir4.png",
+    ],
+  },
 ];
 
 // Slug'a göre etkinlik bulma fonksiyonu
@@ -258,4 +329,3 @@ export function getAllEtkinlikler(): Etkinlik[] {
     return dateB.getTime() - dateA.getTime();
   });
 }
-
