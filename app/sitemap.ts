@@ -1,8 +1,10 @@
 import { MetadataRoute } from "next";
 import { getAllEtkinlikler } from "./data/etkinlikler";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://karacalilikcerkesdernegi.com";
+  const baseUrl = "https://karacalilik.com";
   
   const etkinlikler = getAllEtkinlikler().map((etkinlik) => ({
     url: `${baseUrl}/etkinlikler/${etkinlik.slug}`,

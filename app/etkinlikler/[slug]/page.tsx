@@ -10,7 +10,7 @@ function ArticleStructuredData({ etkinlik }: { etkinlik: any }) {
     "@type": "NewsArticle",
     headline: etkinlik.title,
     description: etkinlik.text.substring(0, 160),
-    image: `https://karacalilikcerkesdernegi.com${etkinlik.img}`,
+    image: `https://karacalilik.com${etkinlik.img}`,
     datePublished: etkinlik.date,
     author: {
       "@type": "Organization",
@@ -21,7 +21,7 @@ function ArticleStructuredData({ etkinlik }: { etkinlik: any }) {
       name: "Karaçalılık Çerkes Derneği",
       logo: {
         "@type": "ImageObject",
-        url: "https://karacalilikcerkesdernegi.com/images/logo-yazisiz-yesil.png",
+        url: "https://karacalilik.com/images/logo-yazisiz-yesil.png",
       },
     },
     keywords: etkinlik.keywords?.join(", ") || "",

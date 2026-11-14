@@ -5,8 +5,8 @@ export const StructuredData: React.FC = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Karaçalılık Çerkes Derneği",
-    url: "https://karacalilikcerkesdernegi.com",
-    logo: "https://karacalilikcerkesdernegi.com/images/logo-yazisiz-yesil.png",
+    url: "https://karacalilik.com",
+    logo: "https://karacalilik.com/images/logo-yazisiz-yesil.png",
     description:
       "Karaçalılık Çerkes Derneği resmi websitesi. Bandırma'da faaliyet gösteren derneğimiz hakkında bilgi alabilir, etkinliklerimizi takip edebilir ve iletişime geçebilirsiniz.",
     address: {

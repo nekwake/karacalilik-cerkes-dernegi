@@ -12,7 +12,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://karacalilikcerkesdernegi.com"),
+  metadataBase: new URL("https://karacalilik.com"),
   title: {
     default: "Karaçalılık Çerkes Derneği",
     template: "%s | Karaçalılık Çerkes Derneği",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "tr_TR",
-    url: "https://karacalilikcerkesdernegi.com",
+    url: "https://karacalilik.com",
     siteName: "Karaçalılık Çerkes Derneği",
     title: "Karaçalılık Çerkes Derneği",
     description:
